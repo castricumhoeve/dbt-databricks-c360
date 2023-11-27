@@ -1,4 +1,3 @@
-[14:57] de Water, J. (Joel)
 {{
  config(materialized = 'table', file_format = 'delta', schema = "BHa")
 }}
