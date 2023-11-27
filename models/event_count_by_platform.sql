@@ -1,0 +1,3 @@
+-- Databricks notebook source
+select platform, count(event_id) from dbdemos.dbt_c360_bronze_events group by platform
+
